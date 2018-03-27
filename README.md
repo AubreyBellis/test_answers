@@ -53,7 +53,7 @@ How would you assign to @bars an Array of all the bars in France?
 //create an empty array for bars
 @bars = []
 
-//for each city in france, find bars that belong to that city  
+//loop through each city in France, find bars that belong to that city  
 @cities.each do |city|
    @bars << city.bars
 ```
@@ -106,7 +106,8 @@ How many numbers in S have a square that ends in a 1?
         counter +=1
 ```
 
-How many numbers in S have a reflection that is also in S? (The reflection of 145 is 541)
+How many numbers in S have a reflection that is also in S? (The reflection of 145 is 541) 280
+
 How many numbers in S can be multiplied by some other number in S to produce a third number in S?
 
 ####***Question 3***####
@@ -133,4 +134,5 @@ You may ignore floating point error accumulation.
 Questions:
 
 What is the probability that the ant is on the center square after 15 seconds?
+
 What is the probability that the ant is on one of the outermost squares after 1 hour?
